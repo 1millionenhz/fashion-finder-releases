@@ -1,7 +1,7 @@
 {
-    "version":  "2.4.0",
-    "installer_url":  "https://github.com/1millionenhz/fashion-finder-releases/releases/download/v2.4.0/FashionFinder_Setup_2.4.0.exe",
-    "sha256":  "f02af61bee2ebcf55eb0c8c710260c18e1bb4812d0985afa316f2cac7b3c814d",
-    "notes":  "FASHION FINDER 2.1.2 - AENDERUNGEN\n==================================\n\nUpdate-Oberflaeche:\n- kein separates Update-Menue mehr\n- keine Update-URL oder Update-Einstellungen fuer Nutzer\n- oben nur noch ein direkter Button \"Update pruefen\"\n- Klick prueft sofort den offiziellen GitHub-Updatekanal\n- wenn ein Update vorhanden ist: nur bestaetigen und installieren\n- wenn aktuell: kurze Meldung \"Du verwendest bereits die aktuelle Version\"\n- automatischer stiller Check beim Programmstart bleibt aktiv\n\nBuild / Public:\n- latest.json wird UTF-8 ohne BOM geschrieben\n- Remote-Pruefung entfernt ein BOM defensiv, falls doch vorhanden\n- alte Releases werden weiterhin erst nach erfolgreicher Remote-Pruefung geloescht\n- L/P Build-Center bleibt unveraendert: L lokal testen, P exakt denselben Installer veroeffentlichen\n\nFashion-Suche:\n- bestehende produktzentrierte Erkennung, Filter und Marketplace-Suchmodi bleiben erhalten",
-    "published_at":  "2026-09-27T13:54:39.3118098Z"
+    "version":  "2.5.0",
+    "installer_url":  "https://github.com/1millionenhz/fashion-finder-releases/releases/download/v2.5.0/FashionFinder_Setup_2.5.0.exe",
+    "sha256":  "dfaf5230f874ae8a4b4150ee58bf1c39673a46efc60ce9b265d91923df88a6b1",
+    "notes":  "FASHION FINDER 2.5.0 - PREMIUM DASHBOARD UI\n==========================================\n\n- komplett neu geordnetes Dashboard mit klarer Such-, Ergebnis- und Detailhierarchie\n- Top Pick wird automatisch aus den vorhandenen Empfehlungen gewÃ¤hlt\n- sichtbare Ergebnis-KPIs: VorschlÃ¤ge, sehr starke Matches, Neu-Quellen, Gebraucht-Quellen\n- Ergebnis-Karten statt unÃ¼bersichtlicher Tabellenansicht\n- Filterchips fÃ¼r Alle / Top Matches / Neu / Gebraucht\n- Top-Pick-Karte erklÃ¤rt Match, Fit, Material, Stil und Haltbarkeits-Hinweise\n- Marktplatz-Zahlen werden nicht erfunden: angezeigt werden echte lokale Vorschlagszahlen und verfÃ¼gbare Suchquellen\n- Recents-History bleibt links und Ã¶ffnet komplette alte Suchen\n- MaÃŸe \u0026 Stilprofil bleibt lokal\n- One-Click-Update und L/P Build-Center inklusive bisheriger Publish-Fixes bleiben erhalten",
+    "published_at":  "2026-09-27T14:19:21.4813735Z"
 }
