@@ -1,7 +1,7 @@
-﻿{
-    "version":  "2.1.1",
-    "installer_url":  "https://github.com/1millionenhz/fashion-finder-releases/releases/download/v2.1.1/FashionFinder_Setup_2.1.1.exe",
-    "sha256":  "bfd8293a211f6b5ea54203431d539f78be8e7ee7821936bd09c448abfdff7ef4",
-    "notes":  "FASHION FINDER 2.1.1 - AENDERUNGEN\n==================================\n\nApp / Suche:\n- produktzentrierte Analyse statt allgemeiner Bildbeschreibung\n- konkretere Produktvarianten wie Puffer Jacket, Trench Coat und Wide Leg Jeans\n- Erkennung/Filter fuer Farbe, Material, Schnitt, Muster, Stil, Groesse und Preis\n- drei Suchmodi: Aehnlich, Exakt und Breit\n- GitHub-Updatekanal fest voreingestellt\n\nBuild / Update 2.1.1:\n- nur noch eine build.bat mit L (Local) und P (Public)\n- L baut und installiert den Test-Installer lokal\n- lokale Freigabe speichert SHA-256 + Dateigroesse\n- P baut NICHT neu, sondern veroeffentlicht exakt den getesteten Installer\n- Umstieg von NSIS auf Inno Setup\n- In-App-Updater verwendet passende Inno-Setup-Silent-Parameter\n- latest.json wird vor dem Aufraeumen remote verifiziert\n- alte GitHub-Releases und Tags werden erst nach erfolgreichem neuen Release geloescht\n- GitHub behaelt damit immer nur das neueste Release\n\nGrenze:\nOhne Marketplace-API/Scraping zeigt Fashion Finder keine Live-Angebote direkt in der App,\nsondern erzeugt gezielte Suchanfragen und oeffnet die jeweiligen Marketplace-Suchen.",
-    "published_at":  "2026-09-27T11:35:29.9448630Z"
+{
+    "version":  "2.1.2",
+    "installer_url":  "https://github.com/1millionenhz/fashion-finder-releases/releases/download/v2.1.2/FashionFinder_Setup_2.1.2.exe",
+    "sha256":  "112dcf4fef7a7c2f729226502da82b0af81ae331e75a73cb6f33bc3952587dd5",
+    "notes":  "FASHION FINDER 2.1.2 - AENDERUNGEN\n==================================\n\nUpdate-Oberflaeche:\n- kein separates Update-Menue mehr\n- keine Update-URL oder Update-Einstellungen fuer Nutzer\n- oben nur noch ein direkter Button \"Update pruefen\"\n- Klick prueft sofort den offiziellen GitHub-Updatekanal\n- wenn ein Update vorhanden ist: nur bestaetigen und installieren\n- wenn aktuell: kurze Meldung \"Du verwendest bereits die aktuelle Version\"\n- automatischer stiller Check beim Programmstart bleibt aktiv\n\nBuild / Public:\n- latest.json wird UTF-8 ohne BOM geschrieben\n- Remote-Pruefung entfernt ein BOM defensiv, falls doch vorhanden\n- alte Releases werden weiterhin erst nach erfolgreicher Remote-Pruefung geloescht\n- L/P Build-Center bleibt unveraendert: L lokal testen, P exakt denselben Installer veroeffentlichen\n\nFashion-Suche:\n- bestehende produktzentrierte Erkennung, Filter und Marketplace-Suchmodi bleiben erhalten",
+    "published_at":  "2026-09-27T12:09:42.2729800Z"
 }
