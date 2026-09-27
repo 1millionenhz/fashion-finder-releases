@@ -1,0 +1,6 @@
+{
+    "version":  "2.1.0",
+    "installer_url":  "https://github.com/1millionenhz/fashion-finder-releases/releases/download/v2.1.0/FashionFinder_Setup_2.1.0.exe",
+    "sha256":  "6ee125200157aaeff5288686fd96c92341b8350f1e2d5f0c483a7a082ec97256",
+    "notes":  "FASHION FINDER 2.1 - Ã„NDERUNGEN\n===============================\n\n- produktzentrierte Analyse statt allgemeiner Bildbeschreibung\n- konkretere Produktvarianten (z.B. Puffer Jacket, Trench Coat, Wide Leg Jeans)\n- verbesserte Erkennung von Farbe, Material, Schnitt, Muster und Stil\n- zusÃ¤tzliche Details wie LÃ¤nge, Ã„rmel, Ausschnitt und Verschluss\n- sichtbare GrÃ¶ÃŸe/Preis nur dann Ã¼bernehmen, wenn im Bild lesbar\n- separate gewÃ¼nschte GrÃ¶ÃŸe und Preis-von/bis-Suchfilter\n- drei Suchmodi: Ã„hnlich, Exakt und Breit\n- editierbarer Suchtext vor dem Ã–ffnen eines Marktplatzes\n- GitHub-Updatekanal bereits voreingestellt\n- In-App-Update lÃ¤dt den neuen Installer, prÃ¼ft SHA-256, aktualisiert still und startet die App neu\n- publish_github_update.bat fÃ¼r spÃ¤tere Releases\n\nGrenze: Ohne Marketplace-API oder Scraping kann die App keine Live-Angebote direkt in der App anzeigen.\nDie App optimiert die Suchanfrage und Ã¶ffnet die jeweiligen Marktplatz-Suchen."
+}
