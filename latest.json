@@ -1,7 +1,7 @@
 {
-    "version":  "3.4.0",
-    "installer_url":  "https://github.com/1millionenhz/fashion-finder-releases/releases/download/v3.4.0/FashionFinder_Setup_3.4.0.exe",
-    "sha256":  "aca4a93601c4721a8a2cc867b6331ff94da05ac4c2aa476963a99552459f6295",
-    "notes":  "FASHION FINDER 3.4.0 - LIVE PRODUCT CARDS\n=========================================\n\nWichtigste Aenderung:\n- Neue Produkte sind nicht mehr nur Empfehlungskarten.\n- Fashion Finder versucht jetzt automatisch oeffentliche Produktseiten im Web zu finden.\n- Wenn ein Shop Produkt-Metadaten oeffentlich ausliefert, zeigt die Karte echtes Produktbild, echten Titel, Preis (falls vorhanden), Shop und direkten Produktlink.\n- Ohne zugreifbare Live-Daten wird NICHTS erfunden: die Karte faellt auf eine praezise Shopsuche zurueck.\n- Neu- und Second-Hand-Abfragen laufen parallel und werden lokal fuer 30 Minuten gecacht.\n- Keine API-Keys und kein Drittanbieter-Account erforderlich.\n\nUI:\n- Live-Daten werden klar mit LIVE-DATEN markiert.\n- Lade-Skeletons waehrend der Websuche.\n- Produktkarten stehen deutlich vor den allgemeinen Empfehlungen.\n- CSS/JS bekommen Versionsparameter, damit WebView nicht versehentlich alte UI-Dateien aus dem Cache zeigt.\n\nBuild / Update:\n- Version 3.4.0.\n- L/P Build-Center und bisherige Publish-Fixes bleiben erhalten.",
-    "published_at":  "2026-09-27T17:39:47.0128793Z"
+    "version":  "4.0.3",
+    "installer_url":  "https://github.com/1millionenhz/fashion-finder-releases/releases/download/v4.0.3/FashionFinder_Setup_4.0.3.exe",
+    "sha256":  "3d74592809059891168adf5cdbb486bccf5092fad36c445b160eb209de6dfa2a",
+    "notes":  "# Fashion Finder 4.0.3 – Python-Bootstrap grundlegend repariert\n\n- `winget`-Fehler -1978335189 wird nicht mehr als fehlgeschlagene Neuinstallation behandelt.\n- Bereits vorhandenes Python 3.11 ODER 3.12 (64-Bit) wird ueber Launcher, Windows-Registry, PATH, Installations- und WinGet-Ordner gefunden.\n- Ein tatsaechlicher Python-Prozess prueft Version und 64-Bit-Architektur.\n- Falls keiner gefunden wird: erst nach Zustimmung Download des offiziellen Python-3.11.9-x64-Installers von python.org; Signatur der Python Software Foundation wird vor dem Start geprueft.\n- Ziel ist ein lokaler Interpreter fuer Fashion Finder ohne bestehendes Python zu ersetzen oder den PATH zu veraendern.\n- Saemtliche Installer-, Test-, L/P-Hash- und Publish-Funktionen der 4.0-Basis bleiben erhalten.\n- Der komplette native Windows-Installer-Build ist weiterhin nur unter Windows testbar.",
+    "published_at":  "2026-11-22T13:25:44.1236237Z"
 }
